@@ -18,9 +18,6 @@ int length(node** start);
 node* getptr(node** start, int index);
 node* getptr1(node** start,int index);
 
-node* first = NULL;
-
-
 void insert(node** start,int number, int index)
 {
   if((number >= GOOD) || (number <= BAD))
