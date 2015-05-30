@@ -20,23 +20,6 @@ node* getptr1(node** start,int index);
 
 node* first = NULL;
 
-int main()
-{
-  for(int i =0; i < 12; i++)
-    {
-      int n = rand()%12;
-      insert(&first,n,i);
-    }
-  int len = length(&first);
-  treverse(&first);
-  cout<<"\n";
-  // cout<<len<<"\n";
-  cout<<"Break!\n";
-  //remove(&first,2);
-  sortll(&first,len);
-  treverse(&first);
-  cout<<"\n";
-}
 
 void insert(node** start,int number, int index)
 {
